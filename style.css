@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin-top: 60px;
+}
+.frontCard{
+    margin-top: 60px;
+    padding-top: 10px;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(89, 180, 174, 0.326);
+    border-radius: 100px;
+
+    box-shadow: 2px 3px 8px rgba(86, 209, 218, 0.066), -2px -4px 7px rgba(210, 163, 231, 0);
+
+    /* background: linear-gradient(to bottom right, tomato, rgb(211, 20, 20));  */
+    background: radial-gradient(rgba(18, 108, 157, 0.409), rgba(0, 255, 225, 0.183), rgba(114, 79, 180, 0.521));
+}
+
+#box{
+margin: auto;
+width: 300px;
+ height:400px;
+ background-color: rgba(35, 23, 211, 0.13); 
+ margin-top: 40px;
+ border-radius: 10px;
+ /* display: flex; */
+ border-color: rgba(157, 165, 218, 0.527);
+
+ box-shadow: 3px -1px 2px rgba(115, 201, 214, 0.025),
+        -2px 3px 7px rgba(187, 147, 240, 0);
+} 
+
+#box img{
+    overflow: hidden;
+    width:100px ;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#box h1{
+    text-align: center;
+    font-family:Helvetica ;
+    font-size: 20px;
+    font-weight: 20px;
+    text-shadow: 1px -2px 4px rgb(23, 0, 128);
+}
+#box p{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Lucida Sans';
+    font-size: 10px;
+    text-shadow: -2px 3px 5px rgba(50, 73, 189, 0.607);
+}
+#box h6{
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+font-size: 14px;
+font-weight: 100;
+line-height: 30px;
+text-shadow: 2px -3px 5px rgba(207, 131, 222, 0.712);
+
+}
